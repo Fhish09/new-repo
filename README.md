@@ -2,45 +2,64 @@
 
 ## Project Overview
 
-We are building an AI-powered solution to help relieve women from menstrual pain. This repository will serve as the central hub for developing, documenting, and collaborating on this compassionate AI tool.
+**Women Menstruation Aid** is an empathetic AI-powered web application designed to help women manage and relieve menstrual pain (dysmenorrhea). 
+
+We focus on **immediate, practical relief** with two unique standout features alongside standard tracking tools.
 
 ## Mission
 
-Menstrual pain (dysmenorrhea) affects millions of women worldwide. Our goal is to create an intelligent AI system that provides personalized relief strategies, tracks symptoms, offers evidence-based recommendations, and potentially integrates with wearable devices or health apps for real-time support.
+Menstrual pain affects millions. Our goal is to create a compassionate, privacy-first AI companion that delivers personalized, evidence-based relief strategies in real-time.
 
-## Features (Planned)
+## Key Differentiators
 
-- **Symptom Tracking**: Log pain levels, duration, associated symptoms.
-- **AI Recommendations**: Personalized advice on remedies, exercises, nutrition, and when to seek medical help.
-- **Predictive Analytics**: Forecast cycles and pain patterns using machine learning.
-- **Community & Resources**: Educational content, forums (future), and links to professional medical resources.
-- **Privacy-First**: Strong emphasis on data security and user privacy.
+### 1. Live Relief Coach
+- Real-time, interactive guided sessions during pain episodes.
+- Adaptive protocols including:
+  - Guided breathing exercises with timers
+  - Heat therapy guidance and timers
+  - Gentle stretch/movement instructions
+  - Real-time symptom check-ins that adapt the session
+- Personalized based on user history and current symptoms.
 
-## Tech Stack (To Be Determined)
+### 2. Smart Nutrition Remedy Builder
+- AI-generated quick recipes, snacks, and drinks targeting anti-inflammatory and pain-relieving nutrients.
+- Includes shopping lists, prep timers, and effectiveness tracking.
+- Focus on accessible, everyday ingredients (ginger, magnesium-rich foods, herbal teas, etc.).
 
-- AI/ML: Python, TensorFlow/PyTorch, or similar
-- Backend: Node.js / Python Flask/Django
-- Frontend: React or similar
-- Database: For user data (with encryption)
+## Core Features
+
+- **Symptom & Pain Tracker** — Log pain intensity, location, mood, flow, and triggers.
+- **AI Chatbot** — Natural conversations for instant advice and support.
+- **Insights & Predictions** — Cycle forecasting and pain pattern detection.
+- **Educational Resources** — Reliable information and red-flag guidance (when to see a doctor).
+- **Privacy-First Design** — Local storage priority with strong data protection.
+
+## Tech Stack
+
+- **Backend**: Python (FastAPI)
+- **Frontend**: JavaScript (React + Tailwind CSS)
+- **AI**: LLM integration (Groq, OpenAI, or local models)
+- **Database**: SQLite (initially), later PostgreSQL
+- **Deployment**: Vercel / Render / Railway
 
 ## Getting Started
 
 1. Clone the repo: `git clone https://github.com/Fhish09/new-repo.git`
-2. Install dependencies (once set up)
-3. Contribute ideas, code, or research!
+2. Explore the `backend/` and `frontend/` folders (coming soon).
+3. Check the [Issues](https://github.com/Fhish09/new-repo/issues) for roadmap and tasks.
 
 ## Contributing
 
-We welcome contributions from developers, healthcare professionals, designers, and anyone passionate about women's health. Please read `CONTRIBUTING.md` (coming soon) for guidelines.
+We welcome contributions from developers, designers, healthcare professionals, and women's health advocates. See `CONTRIBUTING.md` (soon) for details.
 
 ## Disclaimer
 
-This project is for educational and supportive purposes. It is **not a substitute for professional medical advice**. Always consult a qualified healthcare provider for medical concerns.
+**This is not medical advice.** Always consult a qualified healthcare provider. The app aims to support, not replace, professional care.
 
 ## License
 
-MIT License (or choose appropriate open-source license)
+MIT License
 
 ---
 
-Let's build something impactful together! 💪❤️
+Let's build something truly helpful together! ❤️
